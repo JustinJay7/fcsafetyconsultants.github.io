@@ -30,4 +30,4 @@ Here are the main features I built into this site:
 ## Live Website
 
 You can visit the live website here:  
-`https://[JustinJay7].github.io/fcsafety-website/`
+`https://[JustinJay7].github.io/fcsafetyconsultants-website/`
