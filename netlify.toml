@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# CRITICAL: This fixes all 404 errors for React Router
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Optional: Force HTTPS (recommended)
+[[redirects]]
+  from = "http://*"
+  to = "https://*"
+  status = 301
+  force = true
